@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Stef612/fightingperformance_2.0/static/css/main.b8e34c32.css",
-    "main.js": "/Stef612/fightingperformance_2.0/static/js/main.a4ff55e2.js",
+    "main.js": "/Stef612/fightingperformance_2.0/static/js/main.593a4738.js",
     "static/js/453.e9072056.chunk.js": "/Stef612/fightingperformance_2.0/static/js/453.e9072056.chunk.js",
     "static/media/vid4.mp4": "/Stef612/fightingperformance_2.0/static/media/vid4.1da3c5e31dca63ce3a9a.mp4",
     "static/media/vid3.mp4": "/Stef612/fightingperformance_2.0/static/media/vid3.bfc7c3c0c2ec498af250.mp4",
@@ -25,11 +25,11 @@
     "static/media/logo2.png": "/Stef612/fightingperformance_2.0/static/media/logo2.219f54710a83cc08b601.png",
     "index.html": "/Stef612/fightingperformance_2.0/index.html",
     "main.b8e34c32.css.map": "/Stef612/fightingperformance_2.0/static/css/main.b8e34c32.css.map",
-    "main.a4ff55e2.js.map": "/Stef612/fightingperformance_2.0/static/js/main.a4ff55e2.js.map",
+    "main.593a4738.js.map": "/Stef612/fightingperformance_2.0/static/js/main.593a4738.js.map",
     "453.e9072056.chunk.js.map": "/Stef612/fightingperformance_2.0/static/js/453.e9072056.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8e34c32.css",
-    "static/js/main.a4ff55e2.js"
+    "static/js/main.593a4738.js"
   ]
 }
