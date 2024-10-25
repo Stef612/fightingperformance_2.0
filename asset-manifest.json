@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Stef612/fightingperformance_2.0/static/css/main.b8e34c32.css",
+    "main.js": "/Stef612/fightingperformance_2.0/static/js/main.a4ff55e2.js",
+    "static/js/453.e9072056.chunk.js": "/Stef612/fightingperformance_2.0/static/js/453.e9072056.chunk.js",
+    "static/media/vid4.mp4": "/Stef612/fightingperformance_2.0/static/media/vid4.1da3c5e31dca63ce3a9a.mp4",
+    "static/media/vid3.mp4": "/Stef612/fightingperformance_2.0/static/media/vid3.bfc7c3c0c2ec498af250.mp4",
+    "static/media/person2.png": "/Stef612/fightingperformance_2.0/static/media/person2.b61eda02fe4c10077e3d.png",
+    "static/media/vid1.mp4": "/Stef612/fightingperformance_2.0/static/media/vid1.99abc3f19eea2bbfadf2.mp4",
+    "static/media/vid2.mp4": "/Stef612/fightingperformance_2.0/static/media/vid2.88971a9b445cad1ecd1a.mp4",
+    "static/media/person1.png": "/Stef612/fightingperformance_2.0/static/media/person1.75f4e10fd028d2bcf5aa.png",
+    "static/media/person3.png": "/Stef612/fightingperformance_2.0/static/media/person3.5f0e7e8afeecd1559934.png",
+    "static/media/person4.png": "/Stef612/fightingperformance_2.0/static/media/person4.24a1bcb2eaacb1ee3d40.png",
+    "static/media/vid.mp4": "/Stef612/fightingperformance_2.0/static/media/vid.9eb6692a09f12fe7d8f6.mp4",
+    "static/media/small-width-slogan.png": "/Stef612/fightingperformance_2.0/static/media/small-width-slogan.44a36a5baa016f5dbed8.png",
+    "static/media/slogan.png": "/Stef612/fightingperformance_2.0/static/media/slogan.8568809b65314912fc49.png",
+    "static/media/WEEKLY2.png": "/Stef612/fightingperformance_2.0/static/media/WEEKLY2.580988ea0902fa1fdcad.png",
+    "static/media/4.jpg": "/Stef612/fightingperformance_2.0/static/media/4.5083ed534b149a6e1b42.jpg",
+    "static/media/1.jpg": "/Stef612/fightingperformance_2.0/static/media/1.6532fe2eadd2fc494b86.jpg",
+    "static/media/logo.png": "/Stef612/fightingperformance_2.0/static/media/logo.98595aea7a17cb5f6cb6.png",
+    "static/media/main-logo.png": "/Stef612/fightingperformance_2.0/static/media/main-logo.5a8f30b3b3c1c6f02bbf.png",
+    "static/media/3.jpg": "/Stef612/fightingperformance_2.0/static/media/3.9330537ba66b12bbf345.jpg",
+    "static/media/2.jpg": "/Stef612/fightingperformance_2.0/static/media/2.bf84b57cbc9f5031b43a.jpg",
+    "static/media/5.jpg": "/Stef612/fightingperformance_2.0/static/media/5.fdf95d6e249ad7b289da.jpg",
+    "static/media/logo2.png": "/Stef612/fightingperformance_2.0/static/media/logo2.219f54710a83cc08b601.png",
+    "index.html": "/Stef612/fightingperformance_2.0/index.html",
+    "main.b8e34c32.css.map": "/Stef612/fightingperformance_2.0/static/css/main.b8e34c32.css.map",
+    "main.a4ff55e2.js.map": "/Stef612/fightingperformance_2.0/static/js/main.a4ff55e2.js.map",
+    "453.e9072056.chunk.js.map": "/Stef612/fightingperformance_2.0/static/js/453.e9072056.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8e34c32.css",
+    "static/js/main.a4ff55e2.js"
+  ]
+}
