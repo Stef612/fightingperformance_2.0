@@ -1,0 +1,517 @@
+.sloganForBigWidths {
+  width: 95%;
+  height: auto;
+}
+.sloganForSmallWidths {
+  width: 95%;
+  height: auto;
+}
+.main-logo {
+  width: 95%;
+  height: auto;
+}
+.MainSection__overall-div {
+  width: 100%;
+}
+
+@media (max-width: 342px) {
+  .MainSection__overall-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    min-height: 660px;
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 700px;
+    max-height: 900px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3vh;
+    margin-left: 2.5%;
+  }
+  .MainSection__overall-div .sloganForBigWidths {
+    display: none;
+  }
+  .MainSection__overall-div .sloganForSmallWidths {
+    width: 92%;
+  }
+  .MainSection__overall-div .logo-div {
+    width: 92%;
+  }
+
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 7.5vh;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 700px;
+    max-height: 900px;
+  }
+  .inner-logo-div P {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 343px) and (max-width: 480px) {
+  .MainSection__overall-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    min-height: 660px;
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 700px;
+    max-height: 900px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3vh;
+    margin-left: 2.5%;
+  }
+  .MainSection__overall-div .sloganForBigWidths {
+    display: none;
+  }
+  .MainSection__overall-div .sloganForSmallWidths {
+    width: 92%;
+  }
+  .MainSection__overall-div .logo-div {
+    width: 92%;
+  }
+
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 8vh;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 700px;
+    max-height: 900px;
+  }
+  .inner-logo-div P {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .MainSection__overall-div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-div {
+    color: #fff;
+    width: auto;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .inner-logo-div {
+    margin-left: 5.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+  }
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 5vh;
+  }
+  .logo-div img {
+    width: 450px;
+    height: auto;
+  }
+  .sloganForBigWidths {
+    display: none;
+  }
+  .sloganForSmallWidths {
+    width: 90%;
+    height: auto;
+    margin-left: 4.9%;
+    max-width: 575px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 999px) {
+  .MainSection__overall-div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-div {
+    color: #fff;
+    width: auto;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .inner-logo-div {
+    margin-left: 5.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+  }
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 5vh;
+  }
+  .logo-div img {
+    width: 450px;
+    height: auto;
+  }
+  .sloganForBigWidths {
+    display: none;
+  }
+  .sloganForSmallWidths {
+    width: 90%;
+    height: auto;
+    margin-left: 4.9%;
+    max-width: 575px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1366px) {
+  .MainSection__overall-div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-div {
+    color: #fff;
+    width: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .inner-logo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    margin-left: 6.5%;
+  }
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 5vh;
+  }
+  .logo-div img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 4px;
+  }
+  .sloganForBigWidths {
+    width: 90%;
+    height: auto;
+    margin-left: 4.9%;
+    max-width: 900px;
+  }
+  .sloganForSmallWidths {
+    display: none;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .MainSection__overall-div {
+    width: 100%;
+    position: relative;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99vh;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 900px;
+    max-height: 1000px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-div {
+    color: #fff;
+    width: auto;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .inner-logo-div {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    margin-left: 5.5%;
+  }
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 40px;
+  }
+  .logo-div img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 7px;
+  }
+  .sloganForBigWidths {
+    width: 90%;
+    height: auto;
+    margin-left: 4.9%;
+    max-width: 900px;
+  }
+  .sloganForSmallWidths {
+    display: none;
+  }
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .MainSection__overall-div {
+    position: relative;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 1200px;
+    max-height: 1500px;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99vh;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 1200px;
+    max-height: 1500px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-div {
+    color: #fff;
+    width: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .inner-logo-div {
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+  }
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 7px;
+    margin-bottom: 60px;
+  }
+  .logo-div img {
+    width: 725px;
+    height: auto;
+    margin-bottom: 9px;
+  }
+  .sloganForBigWidths {
+    width: 90%;
+    height: auto;
+    margin-left: 4.9%;
+    max-width: 1250px;
+  }
+  .sloganForSmallWidths {
+    display: none;
+  }
+}
+@media (min-width: 2561px) {
+  .MainSection__overall-div {
+    position: relative;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    font-family: "Montserrat-Bold", sans-serif;
+    min-height: 1200px;
+    max-height: 2500px;
+  }
+  .MainSection__overall-div .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99vh;
+    object-fit: cover; /* Ensures the video covers the entire section */
+    z-index: -1; /* Sends the video behind the content */
+    min-height: 1200px;
+    max-height: 2500px;
+  }
+  .MainSection__overall-div .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo-div {
+    color: #fff;
+    width: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .inner-logo-div {
+    margin-left: 6.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+  }
+  .MainSection__overall-div .inner-logo-div p {
+    margin-top: 16px;
+    margin-bottom: 70px;
+  }
+  .logo-div img {
+    width: 1100px;
+    height: auto;
+    margin-bottom: 9px;
+  }
+  .sloganForBigWidths {
+    width: 60%;
+    height: auto;
+    margin-left: 4.9%;
+  }
+  .sloganForSmallWidths {
+    display: none;
+  }
+}

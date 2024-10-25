@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import NavigationModal from "./sections/NavigationModal";
+import MainSection from "./sections/MainSection";
+import TeamSection from "./sections/TeamSection";
+import ScheduleSection from "./sections/ScheduleSection";
+import ContactSection from "./sections/ContactSection";
 
 function App() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainSection onClick={() => setModalIsOpen(true)} />
+      <TeamSection />
+      <ScheduleSection />
+
+      {/* <NavigationModal
+        isOpen={modalIsOpen}
+        onRequestClose={() => setModalIsOpen(false)}
+      /> */}
+
+      <ContactSection />
+      {/* <MainSection onClick={() => setModalIsOpen(true)} />
+       */}
     </div>
   );
 }
