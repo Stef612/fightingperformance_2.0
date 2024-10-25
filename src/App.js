@@ -15,14 +15,13 @@ function App() {
       <TeamSection />
       <ScheduleSection />
 
-      {/* <NavigationModal
+      {/* Modal component, visible when modalIsOpen is true */}
+      <NavigationModal
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
-      /> */}
+      />
 
       <ContactSection />
-      {/* <MainSection onClick={() => setModalIsOpen(true)} />
-       */}
     </div>
   );
 }
